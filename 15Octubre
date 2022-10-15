@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="../CSS/StyleEjercicioproyecto.css">
+    </head>
+    <meta charset="utf-8">
+    <body>
+        <main>
+            <header>
+                <img src="../IMG/logo.svg">
+                <nav>
+                    <ul>
+                        <li> Residentes </li>
+                        <li> Negocios </li>
+                        <li> Visitantes </li>
+                        <li> Gobierno </li>
+                    </ul>
+
+                </nav>
+            </header>
+            <section>
+                <h1 class=="hero_title container-lg" id="main-title"></h1>
+                <span> Aprender a Programar </span>
+                <span> en las </span>
+                <span> escuelas de código </span>
+                <span> de la CDMX </span>
+
+            </section>
+            <div>
+
+
+            </div>
+        </main>
+    </body>
+</html>
+
+
+
+
+
+CSS
+
+
+
+    section{
+        background-image:url("../IMG/hero.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header{
+        height:min-content;
+        background-repeat: no-repeat;
+    }
+    ul{
+        list-style: none;
+        width: 30%;
+        justify-content: space-around;
+        display: flex;
+        margin-left: auto;
+    }
